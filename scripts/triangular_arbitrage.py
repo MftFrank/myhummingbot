@@ -37,7 +37,7 @@ class TriangularArbitrage(ScriptStrategyBase):
     - !!! Profitability calculation doesn't take into account trading fees, set min_profitability to at least 3 * fee
     """
     # Config params
-    connector_name: str = "kucoin"
+    connector_name: str = "binance_paper_trade"
     first_pair: str = "ADA-USDT"
     second_pair: str = "ADA-BTC"
     third_pair: str = "BTC-USDT"
